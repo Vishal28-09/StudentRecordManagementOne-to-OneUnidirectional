@@ -17,7 +17,7 @@
 		<property name="hibernate.hbm2ddl.auto">update</property>
 		
 		<mapping class = "com.mapping.Entity.Student"/>
-		<mapping class = "com.mapping.Entity.Documents"/>
+		<mapping class = "com.mapping.Entity.Marks"/>
 		
 	</session-factory>
 	
