@@ -79,10 +79,26 @@ public class Student {
 		this.course = course;
 	}
 
+	/**
+	 * @return the marks
+	 */
+	public Marks getMarks() {
+		return marks;
+	}
+
+	/**
+	 * @param marks the marks to set
+	 */
+	public void setMarks(Marks marks) {
+		this.marks = marks;
+	}
+
 	@Override
 	public String toString() {
 		return "Student [id=" + id + ", name=" + name + ", email=" + email + ", course=" + course + "]";
 	}
+
+	
 	
 
 	
